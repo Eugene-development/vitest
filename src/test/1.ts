@@ -1,5 +1,9 @@
-interface iF  {
-    name: string
-}
+// interface iF  {
+//     name: string
+// }
 
-const nameOne: iF = 'Bob'
+type T = string | number;
+
+
+const age: T = 8;
+const name1: T = 'Bob'
